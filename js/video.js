@@ -51,8 +51,7 @@ document.querySelector("#vintage").addEventListener("click", function(){
 	video.setAttribute('class', 'oldSchool');
 });
 document.querySelector("#orig").addEventListener("click", function(){
-	// video.setAttribute('class', 'video');
-	video.removeAttribute('class', 'oldSchool');
+	video.classList.remove('oldSchool');
 
 });
 
